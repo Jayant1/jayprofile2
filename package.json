@@ -1,0 +1,23 @@
+{
+  "name": "jayantprofile",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayant1/jayprofile2.git"
+  },
+  "author": "Mathoera Mangelpersad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayant1/jayprofile2/issues"
+  },
+  "homepage": "https://github.com/Jayant1/jayprofile2#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
